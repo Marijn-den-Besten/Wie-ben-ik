@@ -1,10 +1,89 @@
+body{
+	margin: 0;
+	padding: 0;
+}
+
 .Maintext{
-	background-color: #FFFFFF;
+	background-color: #292826;
 	margin-left:  60px;
 	margin-right: 60px;
-	padding: 20px 60px 5% 60px;
+	padding: 70px 60px 5% 60px;
 	border: solid 1px #000000;
-	} 
+	color: #EC4D37;
+} 
+
+.Opleidingtext{
+	background-color: #292826;
+	margin-left:  60px;
+	margin-right: 60px;
+	padding: 70px 60px 5% 60px;
+	border: solid 1px #000000;
+	color: #F9D342;
+}
+
+.Werktext{
+	background-color: #292826;
+	margin-left:  60px;
+	margin-right: 60px;
+	padding: 70px 60px 5% 60px;
+	border: solid 1px #000000;
+	color: #F4A950;
+}
+
 .Container{
 	background-color: #1D1B1B; 
+}
+
+.Opleidingcontainer{
+	background-color: #1D1B1B
+}
+
+.Werkcontainer{
+	background-color: #1D1B1B; 
+}
+
+.pfoto{
+	float: right;
+	width: 20em;
+	height: 20em;
+	border: solid 2px #000000;
+}
+
+header{
+	height: 70px;
+	background: #000000;
+	width: 100%;
+	position: fixed;
+	z-index: 1000;
+}
+
+ul{
+	margin-left: 40px;
+}
+
+ul li{
+    list-style: none;
+    display: inline-block;
+    float: left;
+    line-height: 40px;
+}
+
+ul li a{
+    text-decoration: none;
+    font-size: 22px;
+    font-family: Courier;
+    color: #F4A950;
+    padding: 0 25px;
+}
+
+.Linkhome{
+	color: #EC4D37;
+}
+
+.Linkopleiding{
+	color: #F9D342;
+}
+
+.Linkwerk{
+	color: #F4A950;
 }
