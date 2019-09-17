@@ -76,14 +76,26 @@ ul li a{
     padding: 0 25px;
 }
 
+a{
+	border: solid 2px #F4A950;
+}
+
+ul li a:hover{
+	background-color: #4A4A49;
+	border: solid;
+}
+
 .Linkhome{
 	color: #EC4D37;
+	border: solid 2px #EC4D37;
 }
 
 .Linkopleiding{
 	color: #F9D342;
+	border: solid 2px #F9D342;
 }
 
 .Linkwerk{
 	color: #F4A950;
+	border: solid 2px #F4A950;
 }
